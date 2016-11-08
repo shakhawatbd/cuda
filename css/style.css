@@ -77,7 +77,8 @@ a:hover { text-decoration: none }
     font-weight: Bold;
 
 }
-.nav-pills > li.active > a:hover, .nav-pills > li.active a{
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active a{
 background-color: #643A79;
 }
 
@@ -90,8 +91,6 @@ background-color: #643A79;
 }
 .btn {
     padding:30px 100px;
-    border: ;
-    font-weight: ;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-top: 35px;
@@ -193,6 +192,199 @@ background-color: #643A79;
 }
 /*team section end*/
 
+/*skill section start*/
+.skill {
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+.skill h1 {
+    color: #3C4761;
+}
+.skill p {
+    color: #24395A;
+    margin-top: 25px;
+}
+.skill h3 {
+    color: #3C4761;
+}
+/*skill section end*/
+
+/*portfolio section start*/
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 130px;
+    background-color: #FFDD99;
+}
+.portfolio h1 {
+    color: #3C4761;
+}
+.portfolio p {
+    color: #24395A;
+    margin-top: 25px;
+}
+.portfolio-border {
+    border-bottom: 5px solid #E5C37F;
+    position: absolute; /* or fixed */
+    left: 46%;
+    width: 8%;
+}
+.nav-portfolio {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.nav-portfolio > li {
+    padding-left: 10px;
+}
+.nav-portfolio > li.active a,
+.nav-portfolio > li a:hover {
+    background-color: #FFFFFF;
+    color: #3C4761;
+}
+.nav-portfolio > li.active > a:hover,
+.nav-portfolio > li a {
+    background-color: #E5C37F;
+    color: #3C4761;
+}
+.laptop {
+    margin-top: 40px;
+}
+.btn-portfolio {
+    padding: 24px 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 80px;
+    
+}
+.btn.btn-info,
+.btn.btn-info.active.focus,
+.btn.btn-info.active:focus,
+.btn.btn-info.active:hover,
+.btn.btn-info:active.focus,
+.btn.btn-info:active:focus,
+.btn.btn-info:active:hover {
+  color: #fff;
+  background-color: #17C2A4;
+  border-color: #17C2A4;
+  outline: none;
+  box-shadow: 0px 6px 0px 0px #14A58C;
+}
+/*portfolio scetion end*/
+
+/*about section start*/
+.about {
+    padding-top: 120px;
+    padding-bottom: 130px;
+    background-color: #D74680;
+}
+.avout h1 {
+    color: #fff;
+}
+.about p {
+    color: #fff;
+    margin-top: 25px;
+}
+.about-border {
+    border-bottom: 5px solid #B73C6D;
+    position: absolute; /* or fixed */
+    left: 46%;
+    width: 8%;
+}
+.desig-color {
+    position: absolute;
+    font-size: 15px;
+    color: #FFDD99;
+    margin-top: -22px;
+}
+.circle-top  {
+    margin-top: 60px;
+}
+.circle-top h4 {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+/*about scetion end*/
+
+/*contact section start*/
+.contact {
+    padding-top: 120px;
+    padding-bottom: 130px;
+    background-color: #3C5499;
+}
+.contact-border {
+    border-bottom: 5px solid #273A71;
+    position: absolute; /* or fixed */
+    left: 46%;
+    width: 8%;
+}
+.contact p {
+    margin-top: 25px;
+}
+.text-field-one
+{
+    background-color: #273A71;
+    border: 1px solid #273A71;
+    box-shadow: 1px 1px px 0px #273A71;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    height: 45px;
+    margin-bottom: 0;
+    padding-left: 35px;
+    width:;
+}
+.message {
+    margin-top: 30px;
+    background-color: #273A71;
+    border: 1px solid #273A71;
+    box-shadow: 1px 1px 7px 0px #273A71;
+    border-radius: 3px;
+}
+.btn-contact {
+    padding: 24px 85px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 80px;
+    
+}
+.btn.btn-danger,
+.btn.btn-danger.active.focus,
+.btn.btn-danger.active:focus,
+.btn.btn-danger.active:hover,
+.btn.btn-danger:active.focus,
+.btn.btn-danger:active:focus,
+.btn.btn-danger:active:hover {
+  color: #fff;
+  background-color: #30BAE7;
+  border-color: #30BAE7;
+  outline: none;
+  box-shadow: 0px 6px 0px 0px #299EC5;
+}
+/*contact section end*/
+
+/*footer-bottom section start*/
+.footer-bottom {
+    background-color: #344B8E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-bottom ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-bottom ul li {
+    padding-right: 10px;
+}
+.footer-bottom ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+.footer-bottom ul li a:hover,
+.footer-bottom ul li a:active {
+    color: #30BAE7;
+}
+
+/*footer-bottom section end*/
 
 
 @media screen and (max-width: 480px){
