@@ -448,6 +448,11 @@ background-color: #643A79;
     margin-top: 52px;
 }
 /*service section end*/
+/*contact section start*/
+.text-field-one {
+    margin-bottom: 15px;
+}
+/*contact section end*/
 }
 
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
